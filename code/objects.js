@@ -44,7 +44,7 @@ catBreed = cat.breed;
  */
 
 tortoise.age++
-console.log(tortoise)
+// console.log(tortoise)
 
 /**
  * Q4. How many different colours is Poppy?
@@ -66,6 +66,7 @@ parrot = null;
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
 
+tortoise.food = "dandelion";
 // console.log(tortoise);
 
 /**

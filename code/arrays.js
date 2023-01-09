@@ -80,6 +80,9 @@ stations.splice(3, 0, "Darlington");
  * Is Durham one of the stops?
  */
 
+//OTHER SOLUTION
+//stoppingAtDurham = stations.includes("Durham");
+
 stoppingAtDurham = false;
 for (station of stations){
     if (station == 'Durham') stoppingAtDurham = true;
