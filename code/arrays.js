@@ -29,9 +29,9 @@
  */
 
 // console.log("There are " + stationCount + " stations.");
+// ANOTHER SOLUTION
 
-// another solution 
-// const stationCount = stations;
+// const stationCount 
 //    console.log("There are " + (stations.length) + " stations.");
 
 
@@ -42,8 +42,8 @@
  * Which station is the third stop?
  */
 
-thirdStation = stations[2];;
-console.log("The third station is " + thirdStation);
+// thirdStation = stations[2];;
+// console.log("The third station is " + thirdStation);
 
 
 
@@ -52,6 +52,8 @@ console.log("The third station is " + thirdStation);
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 
+// const ammendedStation = stations.push
+// Array.prototype.at(2);
 // console.log(stations);
 
 
@@ -61,7 +63,8 @@ console.log("The third station is " + thirdStation);
  * How did Leeds get on there? Better remove it.
  */
 
-// console.log(stations);
+stations.pop("Leeds")
+console.log(stations);
 
 
 
